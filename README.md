@@ -47,7 +47,13 @@ All employees are paid on a bi-weekly basis. It is either deposited directly to 
 ------------------------------------------------------------------------------------------------------------------
 ###Installation###
 
-1.	Make sure user has all the files: dbui.sh, prescriptionSales.txt, prescriptionCustomer.txt, employeeRecords.txt, inventory.txt, scheduling.txt
+1.	Make sure user has all the files:
+  - dbui.sh
+  - prescriptionSales.txt
+  - prescriptionCustomer.txt
+  - employeeRecords.txt
+  - inventory.txt
+  - scheduling.txt
 2.	Make dbui.sh executable using the command “chmod 700 dbui.sh” in the terminal of a Linux operating system.
 3.	Move all files listed in the step 1 into turing.acs.ryerson.ca by using SSH File Transfer Client.
 4.	Login to “turing.acs.ryerson.ca”.
