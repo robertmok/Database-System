@@ -14,29 +14,37 @@ The POS system keeps a sales history for each annum. If a customer is purchasing
 
 When a customer makes a prescription drug purchase, his/her information such as name, telephone number, address, and health card number are recorded. That record is also indexed as customer identification number (CID).
 
+------------------------------------------------------------------------------------------------------------------
 **Record Payment Method**
 
 The pharmacy accepts three type of payment; cash, credit, and certified check. Once the payment is received, the salesperson gives proof-of-payment note to the customer.
 
+------------------------------------------------------------------------------------------------------------------
 **Recording a Sale**
 
 When a sale is completed, the system records customer id, the product purchased, total payment, date of purchase, and type of payment. The system also records the pharmacist id (PID) that sells the medicine for legal purposes. The inventory also changes according to the product(s) and amount purchased.
 
+------------------------------------------------------------------------------------------------------------------
 **Adding/removing Employee's Data**
 
 The system keeps record of all employee data such as employee id, name, date of beginning employment, date of end employment and employee's bank account for the sake any positional changes and tax revenue.
-Recording a refund
+
+------------------------------------------------------------------------------------------------------------------
+**Recording a refund**
 
 Employee makes the appropriate changes to the inventory on its newly updated from the refund according to the product and its quantity. The employee also makes record in the sale if the he system records customer id, product returned, total refunds, date of purchase, and type of refund (to debit or cash) for legal reasons.
 
+------------------------------------------------------------------------------------------------------------------
 **Inventory Purchase**
 
 Employee makes the appropriate changes to the inventory on its newly updated from the refund according to the product and its quantity. The employee also makes record in the sale if the he system records customer id, product returned, total refunds, date of purchase, and type of refund (to debit or cash) for legal reasons.
 
+------------------------------------------------------------------------------------------------------------------
 **Paying Employees**
 
 All employees are paid on a bi-weekly basis. It is either deposited directly to employees' bank accounts or by cheque. 
 
+------------------------------------------------------------------------------------------------------------------
 ###Installation###
 
 1.	Make sure user has all the files: dbui.sh, prescriptionSales.txt, prescriptionCustomer.txt, employeeRecords.txt, inventory.txt, scheduling.txt
@@ -44,5 +52,6 @@ All employees are paid on a bi-weekly basis. It is either deposited directly to 
 3.	Move all files listed in the step 1 into turing.acs.ryerson.ca by using SSH File Transfer Client.
 4.	Login to “turing.acs.ryerson.ca”.
 5.	Run the program by typing “sh dbui.sh”.
+------------------------------------------------------------------------------------------------------------------
 
-#NOTE: For more details and information, please refer to the Database Report document.
+####NOTE: For more details and information, please refer to the Database Report document.
