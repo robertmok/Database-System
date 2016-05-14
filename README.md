@@ -52,6 +52,7 @@ All employees are paid on a bi-weekly basis. It is either deposited directly to 
 3.	Move all files listed in the step 1 into turing.acs.ryerson.ca by using SSH File Transfer Client.
 4.	Login to “turing.acs.ryerson.ca”.
 5.	Run the program by typing “sh dbui.sh”.
+
 ------------------------------------------------------------------------------------------------------------------
 
 ####NOTE: For more details and information, please refer to the Database Report document.
